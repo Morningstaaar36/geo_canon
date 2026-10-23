@@ -4,7 +4,7 @@
 Class-conditional geometric canonicalisation of arbitrarily rotated point clouds.
 
 No learning, no weights, no training data.  Given a point cloud and its class
-label (airplane / car / chair / table / bowl) the pipeline computes a canonical
+label (21 classes, from airplane to wardrobe) the pipeline computes a canonical
 rotation R in SO(3) by a deterministic sequence of geometric constructions:
 
     principal axes -> symmetry detection -> class-specific semantic rule -> frame
